@@ -1,0 +1,58 @@
+.dark-theme-bg-container {
+  background-color: #000000;
+}
+
+.light-theme-bg-container {
+  background-color: #ffffff;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-responsive-container {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 120px;
+}
+
+.description-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 8px;
+}
+
+.dark-theme-text {
+  color: #ffffff;
+}
+
+.light-theme-text {
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 240px;
+  }
+
+  .description-text {
+    font-size: 52px;
+  }
+}

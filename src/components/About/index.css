@@ -1,0 +1,58 @@
+.dark-theme-bg-container {
+  background-color: #000000;
+}
+
+.light-theme-bg-container {
+  background-color: #ffffff;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-responsive-container {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  width: 120px;
+}
+
+.about-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 8px;
+}
+
+.dark-theme-about-text {
+  color: #ffffff;
+}
+
+.light-theme-about-text {
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .about-image {
+    width: 240px;
+  }
+
+  .about-text {
+    font-size: 52px;
+  }
+}
